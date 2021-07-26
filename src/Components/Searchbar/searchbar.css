@@ -1,0 +1,123 @@
+.searchbar{
+    margin-top: 20px;
+}
+.recipe{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.recipeWrapper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    font-size:34px;
+    background: rgba(255, 255, 255, 0.3);
+    left: 4px;
+    top: 4px;
+    z-index:999;
+    width:50%;
+    padding:15px;
+    overflow: hidden;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.3), inset 5px -5px 0px 5px rgba(200, 200, 200, 0.15), inset -2px -2px 0px 5px rgba(195, 195, 195, 0.15);
+    
+}
+.searchbox{
+    width:50%;
+}
+.inputbox{
+    border-radius: 5px;
+    font-size: 22px;
+    width:70%;
+    height: 45px; 
+    overflow: hidden
+}
+.search{
+    margin-left:-90px ;
+    font-size: 22px;
+    height:50px;
+    width:90px;
+    border:none;
+    border-radius: 5px;
+    background-color:rgb(86, 123, 233);
+    overflow: hidden
+}
+
+.menu{
+    padding:15px;
+}
+.menuWrapper{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.reciperwrapper{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.recipetitle{
+
+     width:100%;
+     height: 20%;
+     border-right: 5px solid rgb(255, 255, 255);
+    
+    }
+    .calories{
+        font-size: 12px;
+        font-weight:400;
+    }
+.imagebox{
+    display:flex;
+    align-items:center; 
+    justify-content:center;
+    flex-direction:column;
+    width: 50vh;
+    height:50vh;
+    margin-bottom: 70px;
+    object-fit: cover;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.3), inset 5px -5px 0px 5px rgba(200, 200, 200, 0.15), inset -2px -2px 0px 5px rgba(195, 195, 195, 0.15);
+}
+
+.popup-box {
+    position: fixed;
+    width: 100%;
+    height: 150vh;
+    top: 0;
+    left: 0;
+  }
+   
+  .box {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: hidden;
+    overflow-y: hidden;
+  }
+   
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right: calc(15% - 30px);
+    top: calc(100vh - 85vh - 33px);
+    background: #ededed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+  }
+
